@@ -1,0 +1,67 @@
+.footer-box{
+    padding: 130px 150px 46px;
+    background-color: #E7F1F2;
+    .footer-one{
+        margin-bottom: 112px;
+        .footer-tag-line{
+            .tag{
+                width: 433px;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 32px;
+                margin-bottom: 24px;
+            }
+            .app-site-link{
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 32px;
+                color: #00D5F8;
+            }
+        }
+        hr{
+            width: 1px;
+            height: 160px;
+        }
+        .contact-details{
+            max-width: 458px;
+            width: 100%;
+            .address, .contact{
+                h5{
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    width: 166px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: var(--secondary-color);
+                    margin-bottom: 6px;
+                }
+            }
+        }
+    }
+    .footer-two{
+        ul{
+            li{
+                margin: 0px 15px;
+                a{
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: var(--secondary-color);
+                }
+            }
+        }
+        .copy-right-msg{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: right;
+            color: #263238;
+            opacity: 0.48;
+        }
+    }
+}

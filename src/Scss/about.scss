@@ -1,0 +1,52 @@
+.about-us{
+    background-image: url('../assets/Rectangle.png');
+    background-repeat: no-repeat;
+    height: 942px;
+    width: 100%;
+    background-size: cover;
+    top: -170px;
+    .about-box{
+        gap: 44px;
+        margin-bottom: 150px;
+        .about-us-detail{
+            .about-header{
+                margin-bottom: 22px;
+            }
+            .about-para{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                margin-bottom: 40px;
+                letter-spacing: 0.102857px;
+                color:var(--secondary-color);
+            }
+            .about-btn{
+                padding: 15px 54px;
+                font-size: 20px;
+                line-height: 23px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.process-info{
+    margin-bottom: 40px;
+    .process-list{
+        margin-top: 60px;
+        .process-item{
+            width: 340px;
+            height: 340px;
+            gap: 20px;
+            background-image: url('../assets/Group\ 12.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            .process-desc{
+                max-width: 223px;
+                line-height: 24px;
+                color: var(--secondary-color);
+            }
+
+        }
+    }
+}

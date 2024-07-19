@@ -1,0 +1,102 @@
+.posts-section{
+    background-image: url('../assets/blog-post-Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 100px;
+    padding-bottom: 100px;
+    .testimonial-box{
+        margin-top: 120px;
+    }
+    .testimonial-cards{
+        margin-top: 76px;
+        .card{
+            width: 502px;
+            height: 223px;
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            .quote-icon{
+                position: absolute;
+            }
+            .quote-two{
+                left: 10px;
+                top: -16px;
+            }
+            .quote-one{
+                right: 10px;
+                bottom: -16px;
+            }
+            .profile{
+                gap: 16px;
+                margin-bottom: 13px;
+                .avatar{
+                    width: 56px;
+                    height: 56px;
+                    background-color: gray;
+                    border-radius: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                    }
+                }
+                .profile-name{
+                    line-height: 28px;
+                }
+            }
+            .testimonial-para{
+                line-height: 32px;
+                color: var(--secondary-color);
+            }
+        }
+    }
+    .blog-box{
+        margin-top: 160px;
+        .blog-header{
+            .view-all-btn{
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 27.61px;
+                color: #3D5FDD;
+            }
+        }
+        .blog-posts{
+            margin-top: 60px;
+            gap: 44px;
+            .blog{
+                width: 332px;
+                .blog-img{
+                    width: 332px;
+                    height: 200px;
+                    background-color: gray;
+                    border-radius: 12px;
+                    margin-bottom: 24px;
+                }
+                .blog-details{
+                    .blog-title{
+                        line-height: 28px;
+                        margin-bottom: 10px;
+                    }
+                    .blog-date{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: var(--secondary-color);
+                        margin-bottom: 14px;
+                        span{
+                            color: rgba(208, 2, 27, 1);
+                        }
+                        
+                    }
+                    .blog-desc{
+                        line-height: 24px;
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+        }
+    }
+}
